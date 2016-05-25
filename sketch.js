@@ -2,7 +2,7 @@ var newDrops;
 var dropSound;
 
 function preload(){
-  dropSound = loadSound('dropsound.mp3');
+  dropSound = loadSound('raindrops.mp3');
 }
 
 function setup(){
@@ -11,6 +11,7 @@ function setup(){
   for (var i = 0; i < 200; i++) {
     newDrops.push(new Drop());
   };
+  dropSound.play()
 }
 
 function draw(){

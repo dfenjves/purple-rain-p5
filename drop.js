@@ -15,10 +15,7 @@ function Drop(){
     this.speed += this.gravity;
 
     if (this.y > height){
-      dropSound.setVolume(this.dropVolume);
       console.log(this.dropVolume);
-      dropSound.playMode('sustain');
-      dropSound.play();
       this.y = random(-100,-200);
       this.speed = map(this.z, 0, 20, 3,10);
     }
