@@ -7,7 +7,7 @@ function Drop(){
   this.length = map(this.z,0,20,10,30);
   this.speed = map(this.z, 0, 20, 3,10);
   this.dropColor = color(random(255),random(255),random(255));
-  this.dropVolume = map(this.z, 0, 20, 0.05, 0.3);
+  this.dropVolume = map(this.z, 0, 20, 0.01, 0.05);
   
   this.fall = function(){
 
