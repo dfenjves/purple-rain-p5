@@ -3,7 +3,6 @@ var dropSound;
 
 function preload(){
   dropSound = loadSound('dropsound.mp3');
-  dropSound.setVolume(0.1);
 }
 
 function setup(){
