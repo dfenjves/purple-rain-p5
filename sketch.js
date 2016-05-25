@@ -2,7 +2,7 @@ var newDrops;
 var dropSound;
 
 function preload(){
-  dropSound = loadSound('dropSound.mp3');
+  dropSound = loadSound('dropsound.mp3');
   dropSound.setVolume(0.1);
 }
 
