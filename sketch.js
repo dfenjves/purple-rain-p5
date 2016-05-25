@@ -8,7 +8,7 @@ function preload(){
 function setup(){
   createCanvas(windowWidth, windowHeight);
   newDrops = [];
-  for (var i = 0; i < 200; i++) {
+  for (var i = 0; i < 300; i++) {
     newDrops.push(new Drop());
   };
   dropSound.play()
